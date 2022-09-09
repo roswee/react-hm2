@@ -1,3 +1,5 @@
+import {FeedbackComponent} from './Feedback/Feedback'
+
 export const App = () => {
   return (
     <div
@@ -7,10 +9,12 @@ export const App = () => {
         justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
-        color: '#010101'
+        color: '#010101',
+        flexDirection: "column"
       }}
     >
-      React homework template
+      <FeedbackComponent />
     </div>
+    
   );
 };
