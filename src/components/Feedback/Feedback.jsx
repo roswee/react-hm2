@@ -61,7 +61,7 @@ export class FeedbackComponent extends Component {
                 <FeedbackOptions options={this.negative} onLeaveFeedback="Bad" className={btn__negative}/>
                 </Section>
                 <Section title="Statistics">
-                  {this.total === undefined ? 
+                  {total === undefined ? 
                   (<Notification message="There is no feedback given"/>)
                   :
                   (<Statistics 
